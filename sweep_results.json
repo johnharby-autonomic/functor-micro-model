@@ -1,0 +1,184 @@
+{
+  "grid": [
+    {
+      "bandwidth": 0.25,
+      "commit_us": 220.98979250586126,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.00019448089769621366,
+        "max_eviction_loss": 0.5797393853145734,
+        "mean_abs_drift": 1.7123455850025996e-05,
+        "mean_eviction_loss": 0.3443019156949267,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 392
+      },
+      "skipped": 0,
+      "window": 8
+    },
+    {
+      "bandwidth": 0.5,
+      "commit_us": 224.63062499809894,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.07092695549167403,
+        "max_eviction_loss": 0.5240832530543368,
+        "mean_abs_drift": 0.006240728785552191,
+        "mean_eviction_loss": 0.31007194295905127,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 392
+      },
+      "skipped": 0,
+      "window": 8
+    },
+    {
+      "bandwidth": 1.0,
+      "commit_us": 220.63437500037253,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.22614321971511142,
+        "max_eviction_loss": 0.37284713656891677,
+        "mean_abs_drift": 0.024192465197530457,
+        "mean_eviction_loss": 0.21746734048854988,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 392
+      },
+      "skipped": 0,
+      "window": 8
+    },
+    {
+      "bandwidth": 0.25,
+      "commit_us": 340.0552074981533,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.00019448089769621366,
+        "max_eviction_loss": 0.5797393853145734,
+        "mean_abs_drift": 8.546131485027284e-06,
+        "mean_eviction_loss": 0.3444232071964894,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 384
+      },
+      "skipped": 0,
+      "window": 16
+    },
+    {
+      "bandwidth": 0.5,
+      "commit_us": 339.668647502549,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.07092695549167403,
+        "max_eviction_loss": 0.5240832530543368,
+        "mean_abs_drift": 0.00311616896588883,
+        "mean_eviction_loss": 0.31029986746240384,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 384
+      },
+      "skipped": 0,
+      "window": 16
+    },
+    {
+      "bandwidth": 1.0,
+      "commit_us": 344.95551999498275,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.22614321971511142,
+        "max_eviction_loss": 0.37284713656891677,
+        "mean_abs_drift": 0.012021781838223397,
+        "mean_eviction_loss": 0.21790343979107263,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 384
+      },
+      "skipped": 0,
+      "window": 16
+    },
+    {
+      "bandwidth": 0.25,
+      "commit_us": 571.5882275035256,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.00019448089769621366,
+        "max_eviction_loss": 0.5797393853145734,
+        "mean_abs_drift": 4.78228689303863e-06,
+        "mean_eviction_loss": 0.3452360051903289,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 368
+      },
+      "skipped": 0,
+      "window": 32
+    },
+    {
+      "bandwidth": 0.5,
+      "commit_us": 567.0721875048912,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.07092695549167403,
+        "max_eviction_loss": 0.5240832530543368,
+        "mean_abs_drift": 0.0017452570176639808,
+        "mean_eviction_loss": 0.311027348713939,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 368
+      },
+      "skipped": 0,
+      "window": 32
+    },
+    {
+      "bandwidth": 1.0,
+      "commit_us": 571.5564574984455,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.22614321971511142,
+        "max_eviction_loss": 0.37284713656891677,
+        "mean_abs_drift": 0.006681758022507239,
+        "mean_eviction_loss": 0.21835588752877327,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 368
+      },
+      "skipped": 0,
+      "window": 32
+    },
+    {
+      "bandwidth": 0.25,
+      "commit_us": 1020.1326049991621,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.00019448089769621366,
+        "max_eviction_loss": 0.5797393853145734,
+        "mean_abs_drift": 3.0945614410651675e-06,
+        "mean_eviction_loss": 0.3463500696425473,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 336
+      },
+      "skipped": 0,
+      "window": 64
+    },
+    {
+      "bandwidth": 0.5,
+      "commit_us": 1014.3513524963055,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.07092695549167403,
+        "max_eviction_loss": 0.5240832530543368,
+        "mean_abs_drift": 0.0011304729502688987,
+        "mean_eviction_loss": 0.3120209769286766,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 336
+      },
+      "skipped": 0,
+      "window": 64
+    },
+    {
+      "bandwidth": 1.0,
+      "commit_us": 1024.1720824978984,
+      "committed": 400,
+      "drift": {
+        "max_abs_drift": 0.22614321971511142,
+        "max_eviction_loss": 0.37284713656891677,
+        "mean_abs_drift": 0.004288774134148709,
+        "mean_eviction_loss": 0.21895628118881216,
+        "num_commits_measured": 400,
+        "num_evictions_measured": 336
+      },
+      "skipped": 0,
+      "window": 64
+    }
+  ]
+}
