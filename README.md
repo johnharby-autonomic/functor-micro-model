@@ -11,8 +11,12 @@ python3 -m core.prob_functor_model --mode lifecycle
 This will run a quick iteration with 100 model updates and 1000 predicitons
 
 2.) 
-From the root folder, ./run_sweep.sh 
-You can edit this script to run any number of updates and predictions per update. The console output gives a CSV report (window,bandwidth,commit_us,skipped,spill_mean,spill_max,evict_mean,evict_max) and the sweep_results.json gives further details.
+From the root folder, run `./run_sweep.sh`.
+You can edit this script to select routes, lazy/eager moment evaluation, and
+the number of updates and predictions per update. The console output gives a
+CSV report (`route,strategy,commit_us,predict_us,lifecycle_us_per_update,...`),
+and `sweep_results.json` records the measurements, individual trial timings,
+state hashes, and runtime metadata.
 
 ## Overview
 

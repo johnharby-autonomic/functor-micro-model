@@ -1,184 +1,321 @@
 {
   "grid": [
     {
-      "bandwidth": 0.25,
-      "commit_us": 220.98979250586126,
+      "commit_trial_elapsed_seconds": [
+        0.003057333000469953,
+        0.0025886250004987232,
+        0.0025237500012735836
+      ],
+      "commit_us": 6.810416665151327,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.00019448089769621366,
-        "max_eviction_loss": 0.5797393853145734,
-        "mean_abs_drift": 1.7123455850025996e-05,
-        "mean_eviction_loss": 0.3443019156949267,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 392
-      },
-      "skipped": 0,
-      "window": 8
+      "eager_moments": false,
+      "inference_setup_elapsed_seconds": 0.0026247090063407086,
+      "inference_trial_elapsed_seconds": [
+        0.013184834002458956,
+        0.013556500001868699,
+        0.013459917005093303
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.016709042000002228,
+        0.016604208998614922,
+        0.016628042001684662
+      ],
+      "lifecycle_us_per_update": 41.61878416198306,
+      "predict_us": 3.350218750104735,
+      "predictions_per_update": 10,
+      "route": "dist",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "lazy",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     },
     {
-      "bandwidth": 0.5,
-      "commit_us": 224.63062499809894,
+      "commit_trial_elapsed_seconds": [
+        0.003057333000469953,
+        0.0025886250004987232,
+        0.0025237500012735836
+      ],
+      "commit_us": 6.810416665151327,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.07092695549167403,
-        "max_eviction_loss": 0.5240832530543368,
-        "mean_abs_drift": 0.006240728785552191,
-        "mean_eviction_loss": 0.31007194295905127,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 392
-      },
-      "skipped": 0,
-      "window": 8
+      "eager_moments": false,
+      "inference_setup_elapsed_seconds": 0.002534792001824826,
+      "inference_trial_elapsed_seconds": [
+        0.008503583005222026,
+        0.008509833001880907,
+        0.008524333003151696
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.011317124997731298,
+        0.011295084004814271,
+        0.011231542004679795
+      ],
+      "lifecycle_us_per_update": 28.203506669039296,
+      "predict_us": 2.1282152501953533,
+      "predictions_per_update": 10,
+      "route": "sample",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "lazy",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     },
     {
-      "bandwidth": 1.0,
-      "commit_us": 220.63437500037253,
+      "commit_trial_elapsed_seconds": [
+        0.003057333000469953,
+        0.0025886250004987232,
+        0.0025237500012735836
+      ],
+      "commit_us": 6.810416665151327,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.22614321971511142,
-        "max_eviction_loss": 0.37284713656891677,
-        "mean_abs_drift": 0.024192465197530457,
-        "mean_eviction_loss": 0.21746734048854988,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 392
-      },
-      "skipped": 0,
-      "window": 8
+      "eager_moments": false,
+      "inference_setup_elapsed_seconds": 0.002432041001156904,
+      "inference_trial_elapsed_seconds": [
+        0.00839554199774284,
+        0.00834233299974585,
+        0.008349707997695077
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.010936959006357938,
+        0.01103733300260501,
+        0.011096875001385342
+      ],
+      "lifecycle_us_per_update": 27.559548331434296,
+      "predict_us": 2.0906632495704494,
+      "predictions_per_update": 10,
+      "route": "mean",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "lazy",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     },
     {
-      "bandwidth": 0.25,
-      "commit_us": 340.0552074981533,
+      "commit_trial_elapsed_seconds": [
+        0.003057333000469953,
+        0.0025886250004987232,
+        0.0025237500012735836
+      ],
+      "commit_us": 6.810416665151327,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.00019448089769621366,
-        "max_eviction_loss": 0.5797393853145734,
-        "mean_abs_drift": 8.546131485027284e-06,
-        "mean_eviction_loss": 0.3444232071964894,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 384
-      },
-      "skipped": 0,
-      "window": 16
+      "eager_moments": false,
+      "inference_setup_elapsed_seconds": 0.002410041997791268,
+      "inference_trial_elapsed_seconds": [
+        0.008157167001627386,
+        0.008156459000019822,
+        0.008153499999025371
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.010962041997117922,
+        0.011053542002628092,
+        0.011286208995443303
+      ],
+      "lifecycle_us_per_update": 27.751805834365467,
+      "predict_us": 2.0389514162767832,
+      "predictions_per_update": 10,
+      "route": "var",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "lazy",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     },
     {
-      "bandwidth": 0.5,
-      "commit_us": 339.668647502549,
+      "commit_trial_elapsed_seconds": [
+        0.003057333000469953,
+        0.0025886250004987232,
+        0.0025237500012735836
+      ],
+      "commit_us": 6.810416665151327,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.07092695549167403,
-        "max_eviction_loss": 0.5240832530543368,
-        "mean_abs_drift": 0.00311616896588883,
-        "mean_eviction_loss": 0.31029986746240384,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 384
-      },
-      "skipped": 0,
-      "window": 16
+      "eager_moments": false,
+      "inference_setup_elapsed_seconds": 0.0024187079980038106,
+      "inference_trial_elapsed_seconds": [
+        0.009278375000576489,
+        0.009320042001490947,
+        0.00932683300197823
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.012190124994958751,
+        0.012334416001976933,
+        0.012153250005212612
+      ],
+      "lifecycle_us_per_update": 30.565173334859235,
+      "predict_us": 2.327142416712983,
+      "predictions_per_update": 10,
+      "route": "stddev",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "lazy",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     },
     {
-      "bandwidth": 1.0,
-      "commit_us": 344.95551999498275,
+      "commit_trial_elapsed_seconds": [
+        0.0027685000022756867,
+        0.003049541999644134,
+        0.0028662080003414303
+      ],
+      "commit_us": 7.237325832344747,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.22614321971511142,
-        "max_eviction_loss": 0.37284713656891677,
-        "mean_abs_drift": 0.012021781838223397,
-        "mean_eviction_loss": 0.21790343979107263,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 384
-      },
-      "skipped": 0,
-      "window": 16
+      "eager_moments": true,
+      "inference_setup_elapsed_seconds": 0.0027963340035057627,
+      "inference_trial_elapsed_seconds": [
+        0.012565416996949352,
+        0.012537583002995234,
+        0.012573416999657638
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.015633290997357108,
+        0.01565270800347207,
+        0.01564887499989709
+      ],
+      "lifecycle_us_per_update": 39.11267333023716,
+      "predict_us": 3.1397291665295293,
+      "predictions_per_update": 10,
+      "route": "dist",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "eager",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     },
     {
-      "bandwidth": 0.25,
-      "commit_us": 571.5882275035256,
+      "commit_trial_elapsed_seconds": [
+        0.0027685000022756867,
+        0.003049541999644134,
+        0.0028662080003414303
+      ],
+      "commit_us": 7.237325832344747,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.00019448089769621366,
-        "max_eviction_loss": 0.5797393853145734,
-        "mean_abs_drift": 4.78228689303863e-06,
-        "mean_eviction_loss": 0.3452360051903289,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 368
-      },
-      "skipped": 0,
-      "window": 32
+      "eager_moments": true,
+      "inference_setup_elapsed_seconds": 0.0027286670010653324,
+      "inference_trial_elapsed_seconds": [
+        0.007533958996646106,
+        0.0075410419958643615,
+        0.007545667001977563
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.010772833993542008,
+        0.010920082997472491,
+        0.010743208003987093
+      ],
+      "lifecycle_us_per_update": 27.030381667524733,
+      "predict_us": 1.8850833336424937,
+      "predictions_per_update": 10,
+      "route": "sample",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "eager",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     },
     {
-      "bandwidth": 0.5,
-      "commit_us": 567.0721875048912,
+      "commit_trial_elapsed_seconds": [
+        0.0027685000022756867,
+        0.003049541999644134,
+        0.0028662080003414303
+      ],
+      "commit_us": 7.237325832344747,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.07092695549167403,
-        "max_eviction_loss": 0.5240832530543368,
-        "mean_abs_drift": 0.0017452570176639808,
-        "mean_eviction_loss": 0.311027348713939,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 368
-      },
-      "skipped": 0,
-      "window": 32
+      "eager_moments": true,
+      "inference_setup_elapsed_seconds": 0.0027413749994593672,
+      "inference_trial_elapsed_seconds": [
+        0.007639208997716196,
+        0.007661249997909181,
+        0.007609125001181383
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.010723542000050656,
+        0.010818583003128879,
+        0.010798250004881993
+      ],
+      "lifecycle_us_per_update": 26.95055583293045,
+      "predict_us": 1.9091527501586825,
+      "predictions_per_update": 10,
+      "route": "mean",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "eager",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     },
     {
-      "bandwidth": 1.0,
-      "commit_us": 571.5564574984455,
+      "commit_trial_elapsed_seconds": [
+        0.0027685000022756867,
+        0.003049541999644134,
+        0.0028662080003414303
+      ],
+      "commit_us": 7.237325832344747,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.22614321971511142,
-        "max_eviction_loss": 0.37284713656891677,
-        "mean_abs_drift": 0.006681758022507239,
-        "mean_eviction_loss": 0.21835588752877327,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 368
-      },
-      "skipped": 0,
-      "window": 32
+      "eager_moments": true,
+      "inference_setup_elapsed_seconds": 0.002748207996773999,
+      "inference_trial_elapsed_seconds": [
+        0.007550250003987458,
+        0.007620625001436565,
+        0.007608416999573819
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.010698582998884376,
+        0.010836499997822102,
+        0.010699958002078347
+      ],
+      "lifecycle_us_per_update": 26.86277749792983,
+      "predict_us": 1.8983055003142606,
+      "predictions_per_update": 10,
+      "route": "var",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "eager",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     },
     {
-      "bandwidth": 0.25,
-      "commit_us": 1020.1326049991621,
+      "commit_trial_elapsed_seconds": [
+        0.0027685000022756867,
+        0.003049541999644134,
+        0.0028662080003414303
+      ],
+      "commit_us": 7.237325832344747,
       "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.00019448089769621366,
-        "max_eviction_loss": 0.5797393853145734,
-        "mean_abs_drift": 3.0945614410651675e-06,
-        "mean_eviction_loss": 0.3463500696425473,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 336
-      },
-      "skipped": 0,
-      "window": 64
-    },
-    {
-      "bandwidth": 0.5,
-      "commit_us": 1014.3513524963055,
-      "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.07092695549167403,
-        "max_eviction_loss": 0.5240832530543368,
-        "mean_abs_drift": 0.0011304729502688987,
-        "mean_eviction_loss": 0.3120209769286766,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 336
-      },
-      "skipped": 0,
-      "window": 64
-    },
-    {
-      "bandwidth": 1.0,
-      "commit_us": 1024.1720824978984,
-      "committed": 400,
-      "drift": {
-        "max_abs_drift": 0.22614321971511142,
-        "max_eviction_loss": 0.37284713656891677,
-        "mean_abs_drift": 0.004288774134148709,
-        "mean_eviction_loss": 0.21895628118881216,
-        "num_commits_measured": 400,
-        "num_evictions_measured": 336
-      },
-      "skipped": 0,
-      "window": 64
+      "eager_moments": true,
+      "inference_setup_elapsed_seconds": 0.002737834001891315,
+      "inference_trial_elapsed_seconds": [
+        0.007573791001050267,
+        0.0076173749985173345,
+        0.007636916998308152
+      ],
+      "lifecycle_trial_elapsed_seconds": [
+        0.01072537499567261,
+        0.010778415999084245,
+        0.01091758300026413
+      ],
+      "lifecycle_us_per_update": 27.01805583759172,
+      "predict_us": 1.9023715000609325,
+      "predictions_per_update": 10,
+      "route": "stddev",
+      "state_hash": "595efe7a4c623c33ed436e45ec878190d1f98683f6b80d69a529dc1ba3f2949d",
+      "strategy": "eager",
+      "table_size": 400,
+      "trials": 3,
+      "updates": 400,
+      "warmup": 1
     }
-  ]
+  ],
+  "runtime": {
+    "machine": "arm64",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python_version": "3.13.3 (v3.13.3:6280bb54784, Apr  8 2025, 10:47:54) [Clang 15.0.0 (clang-1500.3.9.4)]",
+    "timestamp": "2026-08-27T02:33:13.222689+00:00"
+  }
 }
